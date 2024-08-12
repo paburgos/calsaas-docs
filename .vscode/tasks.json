@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"problemMatcher": [],
+			"label": "npm: start",
+			"detail": "docusaurus start"
+		},
+		{
+			"type": "npm",
+			"script": "write-translations",
+			"problemMatcher": [],
+			"label": "npm: write-translations",
+			"detail": "docusaurus write-translations"
+		}
+	]
+}
