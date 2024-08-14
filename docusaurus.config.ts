@@ -38,7 +38,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://www.youtube.com/watch?v=Gk5EO18k0nI',
         },
         blog: {
           showReadingTime: true,
@@ -68,15 +68,15 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Types of Calibration',
+          label: 'Documentation',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          label: 'Official Website',
+          href: 'https://kavoku.com/',
         },
       ],
+      
     },
     footer: {
       style: 'dark',
@@ -85,7 +85,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Types of Calibration',
+              label: 'Documentation',
               to: '/docs/intro',
             },
           ],
@@ -114,10 +114,7 @@ const config: Config = {
               label: 'Blog',
               to: '/blog',
             },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
+            
           ],
         },
       ],

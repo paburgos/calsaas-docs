@@ -18,9 +18,10 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
+          //Button Kavoku Intro---------------
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to='https://www.youtube.com/watch?v=Gk5EO18k0nI'>
+            Kavoku Intro
           </Link>
         </div>
       </div>
