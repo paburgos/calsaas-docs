@@ -10,7 +10,7 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: '1',
+    title: '1...',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -20,7 +20,7 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: '2',
+    title: '2...',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
