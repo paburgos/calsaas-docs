@@ -68,15 +68,15 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Types of Calibration',
+          label: 'Documentation',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          label: 'Official Website',
+          href: 'https://kavoku.com/',
         },
-      ],
+       ],
     },
     footer: {
       style: 'dark',
@@ -85,7 +85,7 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Types of Calibration',
+              label: 'Documentation',
               to: '/docs/intro',
             },
           ],
