@@ -94,8 +94,8 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Linkedin',
+              href: 'https://www.linkedin.com/company/kavoku',
             },
             {
               label: 'Discord',
@@ -103,7 +103,7 @@ const config: Config = {
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://x.com/kavoku',
             },
           ],
         },
