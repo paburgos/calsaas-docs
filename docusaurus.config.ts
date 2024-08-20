@@ -56,12 +56,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/Logo-kavoku.png',
     navbar: {
-      title: 'Kavoku',
+      title: '',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/Kavoku-LOGO-03.png',
+        src: 'img/Logo-kavoku.png',
       },
       items: [
         {
@@ -91,7 +91,7 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Community Kavoku',
           items: [
             {
               label: 'Linkedin',
@@ -114,14 +114,11 @@ const config: Config = {
               label: 'Blog',
               to: '/blog',
             },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
+            
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Kavoku, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
